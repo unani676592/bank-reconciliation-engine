@@ -1,6 +1,6 @@
 -- ============================================================
 -- Supabase schema for the Bank Reconciliation Engine.
--- Run this in the Supabase SQL editor (or psql) once.
+-- Run this in the Supabase SQL editor. Safe to run more than once.
 --
 -- Two tables:
 --   reconciliation_issues  - one row per Error/Warning result (never Matched)
@@ -32,6 +32,10 @@ create table if not exists public.reconciliation_issues (
     created_at    timestamptz not null default now()
 );
 
+-- Date tolerance columns (adds them if the table already existed without them)
+alter table public.reconciliation_issues add column if not exists days_diff integer;
+alter table public.reconciliation_issues add column if not exists note text;
+
 create index if not exists idx_recon_issues_run_id on public.reconciliation_issues (run_id);
 create index if not exists idx_recon_issues_tx_id  on public.reconciliation_issues (tx_id);
 
@@ -54,3 +58,6 @@ alter table public.reconciliation_errors enable row level security;
 -- No policies are defined on purpose: only the service_role key (used by
 -- the server) can read/write. To let a dashboard read these tables, add a
 -- SELECT policy for the appropriate role after review.
+
+-- Tell the Supabase API to reload its column list so days_diff and note work right away
+notify pgrst, 'reload schema';
