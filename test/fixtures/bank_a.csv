@@ -1,0 +1,17 @@
+tx_id,date,party_name,amount,description
+TXA-1001,2026-09-01,Sunrise Properties,-45000.00,Office rent September
+TXA-1002,2026-09-01,Nexa Retail Pvt Ltd,120000.00,Client payment Invoice INV-301
+TXA-1003,2026-09-02,Airnet Broadband,-3200.00,Internet bill
+TXA-1004,2026-09-03,Stationery Hub,-5500.00,Office supplies
+TXA-1005,2026-09-04,Bluefin Tech,85000.00,Client payment Invoice INV-302
+TXA-1006,2026-09-05,Rahul Verma,-18000.00,Freelancer payout
+TXA-1007,2026-09-06,CloudDesk Software,-2499.00,Software subscription
+TXA-1008,2026-09-08,Priya Nair,-60000.00,Salary advance
+TXA-1009,2026-09-09,Greenleaf Foods,45000.00,Client payment Invoice INV-303
+TXA-1010,2026-09-10,Bank A,-1200.00,Bank charges
+TXA-1011,2026-09-11,City Power Board,-7800.00,Electricity bill
+TXA-1011,2026-09-11,City Power Board,-7800.00,Electricity bill
+TXA-1012,2026-09-12,AdReach Media,-15000.00,Marketing ads
+TXA-1013,2026-09-14,Nexa Retail Pvt Ltd,200000.00,Client payment Invoice INV-304
+TXA-1014,2026-09-15,Arjun Mehta,-9500.00,Travel reimbursement
+TXA-1015,2026-09-16,QuickShip Couriers,-4000.00,Courier charges

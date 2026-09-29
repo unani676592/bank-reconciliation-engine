@@ -1,0 +1,16 @@
+tx_id,date,party_name,amount,description
+TXB-2001,2026-09-01,Payroll Batch Aug,-250000.00,Salaries August
+TXB-2002,2026-09-02,Orbit Labs,75000.00,Client payment Invoice INV-401
+TXB-2003,2026-09-03,GST Department,-12000.00,GST payment
+TXB-2004,2026-09-04,SkyHost Cloud,-3500.00,Cloud hosting
+TXB-2005,2026-09-05,Kavya Textiles,98000.00,Client payment Invoice INV-402
+TXB-2006,2026-09-07,Sharma & Associates,-6500.00,Legal fees
+TXB-2007,2026-09-08,TelcoOne,-2200.00,Phone bills
+TXB-2008,2026-09-09,Digital World Electronics,-30000.00,Laptop purchase
+TXB-2009,2026-09-10,LedgerPro Software,-12750.00,Accounting software
+TXB-2010,2026-09-11,Orbit Labs,64000.00,Client payment Invoice INV-403
+TXB-2011,2026-09-12,Spice Garden Restaurant,-8800.00,Team lunch
+TXB-2012,2026-09-13,Bank B,-1500.00,Bank charges
+TXB-2013,2026-09-14,Vikram Singh,-22000.00,Contractor payment
+TXB-2014,2026-09-15,Kavya Textiles,150000.00,Client payment Invoice INV-404
+TXB-2015,2026-09-16,Helping Hands Foundation,-5000.00,Donation

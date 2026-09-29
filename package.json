@@ -1,0 +1,15 @@
+{
+  "name": "bank-reconciliation-engine",
+  "version": "1.0.0",
+  "description": "Serverless API that reconciles Bank A, Bank B and a company ledger and flags mismatches.",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "dev": "node server.js"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
